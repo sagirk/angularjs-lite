@@ -15,5 +15,8 @@
     "phantomjs-prebuilt": "^2.1.15",
     "sinon": "^3.2.1",
     "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "lint": "jshint src"
   }
 }
