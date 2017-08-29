@@ -4,19 +4,22 @@
   "devDependencies": {
     "browserify": "^14.4.0",
     "jasmine-core": "^2.8.0",
-    "jquery": "^3.2.1",
     "jshint": "^2.9.5",
     "karma": "^1.7.0",
     "karma-browserify": "^5.1.1",
     "karma-jasmine": "^1.1.0",
     "karma-jshint-preprocessor": "0.0.6",
     "karma-phantomjs-launcher": "^1.0.4",
-    "lodash": "^4.17.4",
     "phantomjs-prebuilt": "^2.1.15",
     "sinon": "^3.2.1",
     "watchify": "^3.9.0"
   },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  },
   "scripts": {
-    "lint": "jshint src"
+    "lint": "jshint src test",
+    "test": "karma start"
   }
 }
