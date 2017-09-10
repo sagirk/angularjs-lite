@@ -13,6 +13,7 @@ module.exports = function (config) {
     browserify: {
       debug: true,
       bundleDelay: 2000
-    }
+    },
+    reporters: ['kjhtml']
   })
 }
